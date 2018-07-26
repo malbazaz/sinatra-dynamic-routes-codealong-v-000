@@ -1,5 +1,5 @@
 require_relative 'config/environment'
-
+require_pry
 class App < Sinatra::Base
 
   # This is a sample static route.
@@ -23,7 +23,6 @@ class App < Sinatra::Base
     @number1 = params[:number1]
     @number2 = params[:number2]
     @number1.to_i * @number2.to_i
-
   end
 
 end
