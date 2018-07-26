@@ -1,5 +1,5 @@
 require_relative 'config/environment'
-require_pry
+require 'pry'
 class App < Sinatra::Base
 
   # This is a sample static route.
